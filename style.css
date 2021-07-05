@@ -63,7 +63,8 @@ body {
 .description {
     background-color: #f7f5efb3;
     display: flex;
-    padding: 8% 0%;
+    padding-top: 8%;
+    height: 90vh;
 }
 
 .aboutMe-text {
@@ -114,4 +115,119 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
+}
+
+.header-section h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    background: #56d08d;
+    color: #fff;
+    width: 15%;
+    margin: auto;
+    margin-top: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+section.header-section {
+    background-color: #5cdb95;
+    padding-top: 5%;
+}
+
+.service-secton {
+    display: flex;
+    background-color: #5cdb95;
+}
+
+.single-cell {
+    background-color: #fff;
+    width: 15%;
+    padding: 2% 1%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px gray;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 7.65%;
+    margin-right: 7.65%;
+}
+
+.single-cell h2 {
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    font-weight: 400;
+    color: #5cdb95;
+}
+
+.single-cell h2::before {
+    content: '';
+    width: 16%;
+    height: 3px;
+    background-color: #5cdb95;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 13%;
+}
+
+.single-cell h2::after {
+    content: '';
+    width: 16%;
+    height: 3px;
+    background-color: #5cdb95;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 13%;
+}
+
+.single-cell h3 {
+    font-size: 1.7rem;
+    color: #5cdb95;
+    font-weight: 400;
+    position: relative;
+}
+
+.single-cell h3 span {
+    font-size: 3rem;
+
+}
+
+.single-cell h3::before {
+    content: '';
+    width: 10rem;
+    height: 1px;
+    background-color: #5cdb95;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20%;
+}
+
+.single-cell h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 100;
+    color: #3e3737;
+    display: inline;
+}
+
+.single-cell p {
+    font-size: 1.4rem;
+    color: #554848;
+}
+
+.single-cell a {
+    font-size: 1.5rem;
+    text-decoration: navajowhite;
+    text-transform: capitalize;
+    font-weight: 400;
+    background-color: #5cdb95;
+    color: white;
+    padding: 4px 22px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px gray;
 }
